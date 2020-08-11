@@ -1,0 +1,56 @@
+nav
+{
+  background-color: #e4e4e4;
+  height: 50px;
+  display: flex;
+}
+
+nav a 
+{
+  background-color: black;
+  padding: 15px;
+  margin-right: 2px;
+  width: 100px;
+  text-align: center;
+  color: white;
+text-decoration: none;
+}
+
+nav a:hover
+{
+  color:red;
+  background-color: #ffffff;
+}
+
+aside
+{
+  background-color: royalblue;
+  width: 30%;
+  height: 500px;
+  float: left;
+  display: block;
+}
+
+#profile-image
+{
+  background-color: #f5f6f7;
+}
+aside img
+{
+  width: 50%;
+  margin: 60px;
+}
+
+aside h3
+{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+section
+{
+  background-color: seagreen;
+  width: 70%;
+  height: 500px;
+  float: right;
+}
